@@ -24,7 +24,7 @@ class _SettingsPageState extends State<SettingsPage> {
           preferredSize: Size.fromHeight(50.0), // here the desired height
           child: AppBar(
             title: Text(Strings.titleSettings),
-        centerTitle: true,
+            centerTitle: true,
             // ...
           )),
       body: ListView(

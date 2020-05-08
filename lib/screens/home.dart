@@ -1,14 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:theme_provider/screens/settings.dart';
 
-
 class HomePage extends StatefulWidget {
   @override
   _HomePageState createState() => _HomePageState();
 }
 
 class _HomePageState extends State<HomePage> {
-
   @override
   void initState() {
     super.initState();
@@ -21,7 +19,7 @@ class _HomePageState extends State<HomePage> {
           preferredSize: Size.fromHeight(50.0), // here the desired height
           child: AppBar(
             title: Text("Theme Provider"),
-        centerTitle: true,
+            centerTitle: true,
             // ...
           )),
       extendBody: true,
@@ -32,13 +30,11 @@ class _HomePageState extends State<HomePage> {
           children: <Widget>[
             Text(
               "Parth Maniar",
-              style: TextStyle(
-                fontSize: 22.0,
-                letterSpacing: 2.0
-              ),
+              style: TextStyle(fontSize: 22.0, letterSpacing: 2.0),
             ),
           ],
-        ),),
+        ),
+      ),
       floatingActionButton: Container(
         height: 56.0,
         child: Card(
@@ -53,7 +49,7 @@ class _HomePageState extends State<HomePage> {
           color: Theme.of(context).accentColor,
           child: Row(
             mainAxisSize: MainAxisSize.min,
-            children: <Widget>[  
+            children: <Widget>[
               Padding(
                 padding: const EdgeInsets.only(top: 8.0, bottom: 8.0),
                 child: Container(
