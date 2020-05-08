@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:theme_provider/util/theme_notifier.dart';
 import 'screens/home.dart';
-
 void main() {
   runApp(MyApp());
 }
