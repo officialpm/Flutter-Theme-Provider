@@ -23,6 +23,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  provider:
+  day_night_switch: ^0.0.2+1
+  shared_preferences: ^0.5.3+4
 
 
   # The following adds the Cupertino Icons font to your application.
